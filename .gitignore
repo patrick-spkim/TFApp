@@ -1,0 +1,96 @@
+# Flutter/Dart 관련
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android 관련
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/.cxx/
+
+# iOS 관련
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcshareddata/
+ios/.generated/
+
+# macOS 관련
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Linux 관련
+linux/flutter/ephemeral/
+
+# Windows 관련
+windows/flutter/ephemeral/
+
+# Web 관련
+web/index.html.bak
+
+# IDE 및 에디터 설정
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 로그 파일
+*.log
+
+# 테스트 및 커버리지
+coverage/
+test/*.mocks.dart
+
+# 임시 파일
+*.tmp
+*.swp
+*~
+
+# Flutter 캐시 및 빌드 아티팩트
+**/build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/.generated/
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+
+# Pub 캐시 (필요 시 주석 해제)
+# /.pub-cache/
+# /.pub/
+
+# Gradle 래퍼 (필요 시 주석 해제)
+# /gradle/wrapper/gradle-wrapper.jar
+# /gradlew
+# /gradlew.bat
+
+# 로컬 환경 설정
+local.properties
+.env
+.firebase/
+
+# 분석 옵션 (필요 시 유지)
+# analysis_options.yaml
